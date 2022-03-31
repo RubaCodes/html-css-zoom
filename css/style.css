@@ -25,7 +25,7 @@ header{
     padding:3px;
     display: flex;
     justify-content: space-between;
-    background-color: #181818;
+    background-color: #212121;
     align-items: center;
 }
 
@@ -45,6 +45,14 @@ header{
     color: green;
 }
 
-
+/* MAIN */
+/* FOOTER */
+footer{
+    height: 60px;
+    display: flex;
+    background-color: #212121;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
