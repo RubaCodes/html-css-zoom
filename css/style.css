@@ -20,10 +20,19 @@
     border-radius: 5px;
 }
 .btn-big-main-bar{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #a7a7a7;
     background-color: inherit;
     border: none;
+}
+.text-main-bar{
+    color: #a7a7a7;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn-big-main-bar.green, .text-main-bar.green{
+    color: #00da64;
 }
 
 .btn-big-main-bar.btn-end{
@@ -42,12 +51,7 @@
     border: none;
     margin-left: 20px;
 } */
-.text-main-bar{
-    color: #a7a7a7;
-    font-size: 0.7em;
-    font-weight: bold;
-    text-transform: capitalize;
-}
+
 
 /* HEADER */
 header{
