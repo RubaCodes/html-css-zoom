@@ -3,21 +3,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* HEADER */
-header{
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
-    align-items: center;
-}
-
-.view-container{
-    padding: 2px;
-    color: white;
+/* COMMON */
+.btn{
+    background-color: black;
+    color: #f5f5f5;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
     background-color: black;
     border: 1px solid black;
     border-radius: 5px;
 }
+
+/* HEADER */
+header{
+    padding:3px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+    align-items: center;
+}
+
+.view-menu, .recording-bar{
+    padding: 2px;
+    color: #f5f5f5;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: green;
+}
+
+
+
+

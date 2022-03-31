@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- my style css -->
@@ -13,10 +17,17 @@
 <body>
     <header>
         <div class="header-left">
+            <i class="fa-solid fa-clipboard-check"></i>
+            <div class="recording-bar">
+                <i class="fa-solid fa-record-vinyl"></i>
+                <span>Recording...</span>
+                <a class="btn" href="#"><i class="fa-solid fa-pause"></i></a>
+                <a class="btn" href="#"><i class="fa-solid fa-stop"></i></a>
+            </div>
         </div>
         <div class="header-right">
-            <div class="view-container">
-                <i class="fa-solid fa-grip"></i>
+            <div class="view-menu">
+                <a class="btn" href="#"><i class="fa-solid fa-grip"></i></a>
                 <span>View</span>
             </div>
         </div>
