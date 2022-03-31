@@ -19,6 +19,17 @@
     border: 1px solid black;
     border-radius: 5px;
 }
+.btn-main-bar{
+    font-size: 1.5em;
+    color: #a7a7a7;
+    background-color: inherit;
+    border: none;
+}
+.text-main-bar{
+    color: #a7a7a7;
+    font-size: 0.8em;
+    font-weight: bold;
+}
 
 /* HEADER */
 header{
@@ -53,6 +64,15 @@ footer{
     background-color: #212121;
     justify-content: space-between;
     align-items: center;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+footer li{
+    display: inline-block;
+    text-align: center;
 }
 
 
