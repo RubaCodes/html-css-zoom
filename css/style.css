@@ -10,10 +10,10 @@
 .btn{
     background-color: black;
     color: #f5f5f5;
-    width: 20px;
+    /* width: 20px;
     height: 20px;
-    display: inline-block;
-    line-height: 20px;
+    display: inline-block; 
+    line-height: 20px; */
     text-align: center;
     background-color: black;
     border: 1px solid black;
@@ -31,7 +31,7 @@
     font-weight: bold;
     text-transform: capitalize;
 }
-.btn-big-main-bar.green, .text-main-bar.green{
+.btn-big-main-bar.green, .text-main-bar.green, .btn-small-main-bar.green{
     color: #00da64;
 }
 
@@ -44,18 +44,18 @@
     font-weight: bold;
     padding: 5px 10px;
 }
-/* .btn-small-main-bar{
+ .btn-small-main-bar{
     font-size: 1em;
     color: #a7a7a7;
     background-color: inherit;
     border: none;
-    margin-left: 20px;
-} */
+} 
 
 
 /* HEADER */
 header{
-    padding:3px;
+    height: 30px;
+    padding-left:3px;
     display: flex;
     justify-content: space-between;
     background-color: #181818;
@@ -79,9 +79,37 @@ header{
 }
 
 /* MAIN */
+
+main{
+    height: calc(100vh - 80px);
+    background-color: #181818;
+}
+.container{
+    padding-top: 30px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    overflow-y: scroll;
+}
+
+.user{
+    width: calc(100% /6 - 30px);
+    height: 200px;
+    flex-shrink: 0;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
 /* FOOTER */
 footer{
-    padding: 5px 10px;
+    height: 50px;
+    padding-left:10px;
     display: flex;
     background-color: #212121;
     justify-content: space-between;
@@ -101,8 +129,14 @@ footer > *{
 }
 
 .end{
+    /* display: flex;
+    flex-direction: row-reverse; */
+    text-align: right;
+    padding-right: 10px;
+}
+.actions{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
 }
 
 
